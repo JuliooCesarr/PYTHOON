@@ -1,13 +1,17 @@
+#1 questão 
 print('Alunos-PLP Unifavip 2022.2')
 
+#2 questão
 número = input('escolha um número qualquer')
 print(f'O número informado foi {número}')
 
+#3 questão
 número1 = float(input("diga o primeiro número: "))
 número2 = float(input("diga o segundo número: "))
 soma = número1 + número2
 print(f'a soma de {número1} e {número2} é: {soma}')
 
+#4 questão
 nota1 = float(input('diga sua primeira nota: '))
 nota2 = float(input('diga a segunda: '))
 nota3 = float(input('a terceira: '))
@@ -15,34 +19,41 @@ nota4 = float(input('e por último, a quarta nota: '))
 media = (nota1 + nota2 + nota3 + nota4) / 4
 print(f"A média das notas é: {media}")
 
+#5 questão
 metros = float(input("digite o valor em metros: "))
 cm = metros * 100
 print(f"{metros} metros é igual a {cm} centímetros")
 
+#6 questão
 import math
 raio = float(input("Digite o raio do círculo: "))
 area = math.pi * (raio ** 2)
 print(f"A área do círculo com raio {raio} é: {area}")
 
+#7 questão
 lado = float(input("Digite o tamanho do lado do quadrado: "))
 area = lado ** 2
 dobro_area = area * 2
 print(f"A área do quadrado com lado {lado} é: {area}")
 print(f"O dobro da área é: {dobro_area}")
 
+#8 questão
 valor_por_hora = float(input("Quanto você ganha por hora? "))
 horas_trabalhadas = float(input("Quantas horas você trabalhou no mês? "))
 salario_total = valor_por_hora * horas_trabalhadas
 print(f"O seu salário total neste mês é: R${salario_total:.2f}")
 
+#9 questão
 fahrenheit = float(input("Digite a temperatura em graus Fahrenheit: "))
 celsius = 5 * ((fahrenheit - 32) / 9)
 print(f"{fahrenheit} graus Fahrenheit é igual a {celsius:.2f} graus Celsius")
 
+#10 questão
 celsius = float(input("Digite a temperatura em graus celsius: "))
 fahrenheit = 9 / 5 * ((celsius + 32))
 print(f"{celsius} graus Celsius é igual a {fahrenheit:.}")
 
+#11 questão
 num1_int = int(input("Digite o primeiro número inteiro: "))
 num2_int = int(input("Digite o segundo número inteiro: "))
 num3_real = float(input("Digite o número real: "))
@@ -53,10 +64,12 @@ print(f"A soma do triplo do primeiro com o terceiro é: {soma}")
 cubo = num3_real ** 3
 print(f"O terceiro número elevado ao cubo é: {cubo}")
 
+#12 questão
 altura = float(input("Digite a altura da pessoa em metros: "))
 peso_ideal = (72.7 * altura) - 58
 print(f"Para uma altura de {altura:.2f} metros, o peso ideal é: {peso_ideal:.2f} kg")
 
+#13 questão
 altura = float(input("Digite a altura da pessoa em metros: "))
 sexo = input("Digite o sexo (M para masculino, F para feminino): ").upper()
 if sexo == 'M':
@@ -68,6 +81,7 @@ elif sexo == 'F':
 else:
     print("Sexo inválido. Por favor, digite M para masculino ou F para feminino.")
 
+#14 questão
 peso = float(input("Digite o peso total de peixes (em quilos): "))
 limite = 50
 excesso = 0
@@ -80,9 +94,11 @@ if peso > limite:
 else:
     print("Peso dentro do limite estabelecido.")
 
+#15 questão
 valor_por_hora = float(input("Quanto você ganha por hora? "))
 horas_trabalhadas = float(input("Quantas horas você trabalhou no mês? "))
 
+#16 questão
 area = float(input("Digite o tamanho da área a ser pintada em metros quadrados: "))
 cobertura_por_litro = 3
 capacidade_lata = 18
@@ -96,6 +112,7 @@ print(f"Para pintar uma área de {area:.2f} m², você precisará de:")
 print(f"- {latas_comprar} lata(s) de tinta")
 print(f"- O preço total será de R${preco_total:.2f}")
 
+#17 questão
 area_a_pintar = float(input("Digite o tamanho da área a ser pintada em metros quadrados: "))
 cobertura_por_litro = 6
 folga = 0.1
@@ -142,6 +159,7 @@ print(f"- Quantidade de latas a comprar: {num_latas_misto}")
 print(f"- Quantidade de galões a comprar: {num_galoes_misto}")
 print(f"- Preço total: R${preco_total_misto:.2f}")
 
+#18 questão
 tamanho_mb = float(input("Digite o tamanho do arquivo para download (em MB): "))
 velocidade_mbps = float(input("Digite a velocidade do link de Internet (em Mbps): "))
 tamanho_bits = tamanho_mb * 8
@@ -150,7 +168,7 @@ tempo_segundos = tamanho_bits / velocidade_bps
 tempo_minutos = tempo_segundos / 60
 print(f"\nTempo aproximado de download: {tempo_minutos:.2f} minutos")
 
-
+#19 questão
 vetor = []
 quantidade_elementos = int(input("Digite quantos números inteiros deseja adicionar ao vetor: "))
 for i in range(quantidade_elementos):
